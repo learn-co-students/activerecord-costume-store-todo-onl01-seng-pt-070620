@@ -16,7 +16,7 @@ def change
     t.string :image_url
     t.float :price
 
-    t.timestamps null: false
+    t.timestamps :null
     end 
 end 
 end 
